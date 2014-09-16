@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F5198EA19C7A02A0031F5F8 /* acting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5198E119C7A02A0031F5F8 /* acting.jpg */; };
+		4F5198EB19C7A02A0031F5F8 /* archery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5198E219C7A02A0031F5F8 /* archery.jpg */; };
+		4F5198EC19C7A02A0031F5F8 /* dance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5198E319C7A02A0031F5F8 /* dance.jpg */; };
+		4F5198ED19C7A02A0031F5F8 /* guitar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5198E419C7A02A0031F5F8 /* guitar.jpg */; };
+		4F5198EE19C7A02A0031F5F8 /* karate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5198E519C7A02A0031F5F8 /* karate.jpg */; };
+		4F5198EF19C7A02A0031F5F8 /* paintnite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5198E619C7A02A0031F5F8 /* paintnite.jpg */; };
+		4F5198F019C7A02A0031F5F8 /* rockclimbing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5198E719C7A02A0031F5F8 /* rockclimbing.jpg */; };
+		4F5198F119C7A02A0031F5F8 /* sailing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5198E819C7A02A0031F5F8 /* sailing.jpg */; };
+		4F5198F219C7A02A0031F5F8 /* sushi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5198E919C7A02A0031F5F8 /* sushi.jpg */; };
+		4F51991419C7A6C40031F5F8 /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5198F719C7A6C40031F5F8 /* MDCGeometry.m */; };
+		4F51991519C7A6C40031F5F8 /* MDCViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5198FA19C7A6C40031F5F8 /* MDCViewState.m */; };
+		4F51991619C7A6C40031F5F8 /* UIColor+MDCRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5198FC19C7A6C40031F5F8 /* UIColor+MDCRGB8Bit.m */; };
+		4F51991719C7A6C40031F5F8 /* UIView+MDCBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5198FF19C7A6C40031F5F8 /* UIView+MDCBorderedLabel.m */; };
+		4F51991819C7A6C40031F5F8 /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51990519C7A6C40031F5F8 /* MDCSwipeOptions.m */; };
+		4F51991919C7A6C40031F5F8 /* MDCSwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51990719C7A6C40031F5F8 /* MDCSwipeToChooseViewOptions.m */; };
+		4F51991A19C7A6C40031F5F8 /* MDCPanState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51990A19C7A6C40031F5F8 /* MDCPanState.m */; };
+		4F51991B19C7A6C40031F5F8 /* MDCSwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51990D19C7A6C40031F5F8 /* MDCSwipeResult.m */; };
+		4F51991C19C7A6C40031F5F8 /* MDCSwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51991119C7A6C40031F5F8 /* MDCSwipeToChooseView.m */; };
+		4F51991D19C7A6C40031F5F8 /* UIView+MDCSwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51991319C7A6C40031F5F8 /* UIView+MDCSwipeToChoose.m */; };
+		4F51992019C7A7050031F5F8 /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51991F19C7A7050031F5F8 /* SurveyViewController.m */; };
+		4F51992419C7A8AD0031F5F8 /* Survey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51992319C7A8AD0031F5F8 /* Survey.m */; };
+		4F51992719C7A8F80031F5F8 /* SurveyChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51992619C7A8F80031F5F8 /* SurveyChooseView.m */; };
+		4F543DEB19C78DBD00928BE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F543DEA19C78DBD00928BE7 /* Foundation.framework */; };
+		4F543DED19C78DBD00928BE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F543DEC19C78DBD00928BE7 /* CoreGraphics.framework */; };
+		4F543DEF19C78DBD00928BE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F543DEE19C78DBD00928BE7 /* UIKit.framework */; };
+		4F543DF519C78DBD00928BE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F543DF319C78DBD00928BE7 /* InfoPlist.strings */; };
+		4F543DF719C78DBD00928BE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F543DF619C78DBD00928BE7 /* main.m */; };
+		4F543DFB19C78DBD00928BE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F543DFA19C78DBD00928BE7 /* AppDelegate.m */; };
+		4F543DFE19C78DBD00928BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F543DFC19C78DBD00928BE7 /* Main.storyboard */; };
+		4F543E0119C78DBD00928BE7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F543E0019C78DBD00928BE7 /* FirstViewController.m */; };
+		4F543E0419C78DBD00928BE7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F543E0319C78DBD00928BE7 /* SecondViewController.m */; };
+		4F543E0619C78DBD00928BE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F543E0519C78DBD00928BE7 /* Images.xcassets */; };
+		4F543E0D19C78DBD00928BE7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F543E0C19C78DBD00928BE7 /* XCTest.framework */; };
+		4F543E0E19C78DBD00928BE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F543DEA19C78DBD00928BE7 /* Foundation.framework */; };
+		4F543E0F19C78DBD00928BE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F543DEE19C78DBD00928BE7 /* UIKit.framework */; };
+		4F543E1719C78DBD00928BE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F543E1519C78DBD00928BE7 /* InfoPlist.strings */; };
+		4F543E1919C78DBD00928BE7 /* SurveyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F543E1819C78DBD00928BE7 /* SurveyTests.m */; };
+		4FFE363419C7C0D60069D587 /* SurveyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE363319C7C0D60069D587 /* SurveyCollectionViewCell.m */; };
+		4FFE363819C7FD9C0069D587 /* SurveyResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE363719C7FD9C0069D587 /* SurveyResult.m */; };
+		4FFE363B19C80FCC0069D587 /* FirstExpsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE363A19C80FCC0069D587 /* FirstExpsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F543E1019C78DBD00928BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F543DDF19C78DBD00928BE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F543DE619C78DBD00928BE7;
+			remoteInfo = Survey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F5198E119C7A02A0031F5F8 /* acting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = acting.jpg; sourceTree = "<group>"; };
+		4F5198E219C7A02A0031F5F8 /* archery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = archery.jpg; sourceTree = "<group>"; };
+		4F5198E319C7A02A0031F5F8 /* dance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dance.jpg; sourceTree = "<group>"; };
+		4F5198E419C7A02A0031F5F8 /* guitar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guitar.jpg; sourceTree = "<group>"; };
+		4F5198E519C7A02A0031F5F8 /* karate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = karate.jpg; sourceTree = "<group>"; };
+		4F5198E619C7A02A0031F5F8 /* paintnite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paintnite.jpg; sourceTree = "<group>"; };
+		4F5198E719C7A02A0031F5F8 /* rockclimbing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rockclimbing.jpg; sourceTree = "<group>"; };
+		4F5198E819C7A02A0031F5F8 /* sailing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sailing.jpg; sourceTree = "<group>"; };
+		4F5198E919C7A02A0031F5F8 /* sushi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sushi.jpg; sourceTree = "<group>"; };
+		4F5198F619C7A6C40031F5F8 /* MDCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCGeometry.h; sourceTree = "<group>"; };
+		4F5198F719C7A6C40031F5F8 /* MDCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCGeometry.m; sourceTree = "<group>"; };
+		4F5198F919C7A6C40031F5F8 /* MDCViewState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCViewState.h; sourceTree = "<group>"; };
+		4F5198FA19C7A6C40031F5F8 /* MDCViewState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCViewState.m; sourceTree = "<group>"; };
+		4F5198FB19C7A6C40031F5F8 /* UIColor+MDCRGB8Bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MDCRGB8Bit.h"; sourceTree = "<group>"; };
+		4F5198FC19C7A6C40031F5F8 /* UIColor+MDCRGB8Bit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MDCRGB8Bit.m"; sourceTree = "<group>"; };
+		4F5198FE19C7A6C40031F5F8 /* UIView+MDCBorderedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDCBorderedLabel.h"; sourceTree = "<group>"; };
+		4F5198FF19C7A6C40031F5F8 /* UIView+MDCBorderedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDCBorderedLabel.m"; sourceTree = "<group>"; };
+		4F51990019C7A6C40031F5F8 /* MDCSwipeToChoose-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-Prefix.pch"; sourceTree = "<group>"; };
+		4F51990219C7A6C40031F5F8 /* MDCSwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChoose.h; sourceTree = "<group>"; };
+		4F51990419C7A6C40031F5F8 /* MDCSwipeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeOptions.h; sourceTree = "<group>"; };
+		4F51990519C7A6C40031F5F8 /* MDCSwipeOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeOptions.m; sourceTree = "<group>"; };
+		4F51990619C7A6C40031F5F8 /* MDCSwipeToChooseViewOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChooseViewOptions.h; sourceTree = "<group>"; };
+		4F51990719C7A6C40031F5F8 /* MDCSwipeToChooseViewOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeToChooseViewOptions.m; sourceTree = "<group>"; };
+		4F51990919C7A6C40031F5F8 /* MDCPanState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCPanState.h; sourceTree = "<group>"; };
+		4F51990A19C7A6C40031F5F8 /* MDCPanState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCPanState.m; sourceTree = "<group>"; };
+		4F51990B19C7A6C40031F5F8 /* MDCSwipeDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeDirection.h; sourceTree = "<group>"; };
+		4F51990C19C7A6C40031F5F8 /* MDCSwipeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeResult.h; sourceTree = "<group>"; };
+		4F51990D19C7A6C40031F5F8 /* MDCSwipeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeResult.m; sourceTree = "<group>"; };
+		4F51990F19C7A6C40031F5F8 /* MDCSwipeToChooseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChooseDelegate.h; sourceTree = "<group>"; };
+		4F51991019C7A6C40031F5F8 /* MDCSwipeToChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChooseView.h; sourceTree = "<group>"; };
+		4F51991119C7A6C40031F5F8 /* MDCSwipeToChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeToChooseView.m; sourceTree = "<group>"; };
+		4F51991219C7A6C40031F5F8 /* UIView+MDCSwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDCSwipeToChoose.h"; sourceTree = "<group>"; };
+		4F51991319C7A6C40031F5F8 /* UIView+MDCSwipeToChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDCSwipeToChoose.m"; sourceTree = "<group>"; };
+		4F51991E19C7A7050031F5F8 /* SurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SurveyViewController.h; path = ../../../firstexps/Survey/Survey/SurveyViewController.h; sourceTree = "<group>"; };
+		4F51991F19C7A7050031F5F8 /* SurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SurveyViewController.m; path = ../../../firstexps/Survey/Survey/SurveyViewController.m; sourceTree = "<group>"; };
+		4F51992219C7A8AD0031F5F8 /* Survey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Survey.h; path = ../../../firstexps/Survey/Survey/Survey.h; sourceTree = "<group>"; };
+		4F51992319C7A8AD0031F5F8 /* Survey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Survey.m; path = ../../../firstexps/Survey/Survey/Survey.m; sourceTree = "<group>"; };
+		4F51992519C7A8F80031F5F8 /* SurveyChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyChooseView.h; sourceTree = "<group>"; };
+		4F51992619C7A8F80031F5F8 /* SurveyChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyChooseView.m; sourceTree = "<group>"; };
+		4F543DE719C78DBD00928BE7 /* Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Survey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F543DEA19C78DBD00928BE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F543DEC19C78DBD00928BE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F543DEE19C78DBD00928BE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F543DF219C78DBD00928BE7 /* Survey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Survey-Info.plist"; sourceTree = "<group>"; };
+		4F543DF419C78DBD00928BE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F543DF619C78DBD00928BE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F543DF819C78DBD00928BE7 /* Survey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Survey-Prefix.pch"; sourceTree = "<group>"; };
+		4F543DF919C78DBD00928BE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F543DFA19C78DBD00928BE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F543DFD19C78DBD00928BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F543DFF19C78DBD00928BE7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4F543E0019C78DBD00928BE7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4F543E0219C78DBD00928BE7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4F543E0319C78DBD00928BE7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4F543E0519C78DBD00928BE7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F543E0B19C78DBD00928BE7 /* SurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F543E0C19C78DBD00928BE7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4F543E1419C78DBD00928BE7 /* SurveyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SurveyTests-Info.plist"; sourceTree = "<group>"; };
+		4F543E1619C78DBD00928BE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F543E1819C78DBD00928BE7 /* SurveyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurveyTests.m; sourceTree = "<group>"; };
+		4FFE363219C7C0D60069D587 /* SurveyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyCollectionViewCell.h; sourceTree = "<group>"; };
+		4FFE363319C7C0D60069D587 /* SurveyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyCollectionViewCell.m; sourceTree = "<group>"; };
+		4FFE363619C7FD9C0069D587 /* SurveyResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyResult.h; sourceTree = "<group>"; };
+		4FFE363719C7FD9C0069D587 /* SurveyResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyResult.m; sourceTree = "<group>"; };
+		4FFE363919C80FCC0069D587 /* FirstExpsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstExpsViewController.h; sourceTree = "<group>"; };
+		4FFE363A19C80FCC0069D587 /* FirstExpsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstExpsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F543DE419C78DBD00928BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F543DED19C78DBD00928BE7 /* CoreGraphics.framework in Frameworks */,
+				4F543DEF19C78DBD00928BE7 /* UIKit.framework in Frameworks */,
+				4F543DEB19C78DBD00928BE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F543E0819C78DBD00928BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F543E0D19C78DBD00928BE7 /* XCTest.framework in Frameworks */,
+				4F543E0F19C78DBD00928BE7 /* UIKit.framework in Frameworks */,
+				4F543E0E19C78DBD00928BE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F5198E019C7A02A0031F5F8 /* artwork */ = {
+			isa = PBXGroup;
+			children = (
+				4F5198E119C7A02A0031F5F8 /* acting.jpg */,
+				4F5198E219C7A02A0031F5F8 /* archery.jpg */,
+				4F5198E319C7A02A0031F5F8 /* dance.jpg */,
+				4F5198E419C7A02A0031F5F8 /* guitar.jpg */,
+				4F5198E519C7A02A0031F5F8 /* karate.jpg */,
+				4F5198E619C7A02A0031F5F8 /* paintnite.jpg */,
+				4F5198E719C7A02A0031F5F8 /* rockclimbing.jpg */,
+				4F5198E819C7A02A0031F5F8 /* sailing.jpg */,
+				4F5198E919C7A02A0031F5F8 /* sushi.jpg */,
+			);
+			name = artwork;
+			path = ../../../../Desktop/artwork;
+			sourceTree = "<group>";
+		};
+		4F5198F319C7A6B50031F5F8 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				4F5198F419C7A6C40031F5F8 /* MDCSwipeToChoose */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		4F5198F419C7A6C40031F5F8 /* MDCSwipeToChoose */ = {
+			isa = PBXGroup;
+			children = (
+				4F5198F519C7A6C40031F5F8 /* Internal */,
+				4F51990019C7A6C40031F5F8 /* MDCSwipeToChoose-Prefix.pch */,
+				4F51990119C7A6C40031F5F8 /* Public */,
+			);
+			path = MDCSwipeToChoose;
+			sourceTree = "<group>";
+		};
+		4F5198F519C7A6C40031F5F8 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				4F5198F619C7A6C40031F5F8 /* MDCGeometry.h */,
+				4F5198F719C7A6C40031F5F8 /* MDCGeometry.m */,
+				4F5198F819C7A6C40031F5F8 /* State */,
+				4F5198FB19C7A6C40031F5F8 /* UIColor+MDCRGB8Bit.h */,
+				4F5198FC19C7A6C40031F5F8 /* UIColor+MDCRGB8Bit.m */,
+				4F5198FD19C7A6C40031F5F8 /* Views */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		4F5198F819C7A6C40031F5F8 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				4F5198F919C7A6C40031F5F8 /* MDCViewState.h */,
+				4F5198FA19C7A6C40031F5F8 /* MDCViewState.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		4F5198FD19C7A6C40031F5F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F5198FE19C7A6C40031F5F8 /* UIView+MDCBorderedLabel.h */,
+				4F5198FF19C7A6C40031F5F8 /* UIView+MDCBorderedLabel.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F51990119C7A6C40031F5F8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				4F51990219C7A6C40031F5F8 /* MDCSwipeToChoose.h */,
+				4F51990319C7A6C40031F5F8 /* Options */,
+				4F51990819C7A6C40031F5F8 /* State */,
+				4F51990E19C7A6C40031F5F8 /* Views */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		4F51990319C7A6C40031F5F8 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				4F51990419C7A6C40031F5F8 /* MDCSwipeOptions.h */,
+				4F51990519C7A6C40031F5F8 /* MDCSwipeOptions.m */,
+				4F51990619C7A6C40031F5F8 /* MDCSwipeToChooseViewOptions.h */,
+				4F51990719C7A6C40031F5F8 /* MDCSwipeToChooseViewOptions.m */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		4F51990819C7A6C40031F5F8 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				4F51990919C7A6C40031F5F8 /* MDCPanState.h */,
+				4F51990A19C7A6C40031F5F8 /* MDCPanState.m */,
+				4F51990B19C7A6C40031F5F8 /* MDCSwipeDirection.h */,
+				4F51990C19C7A6C40031F5F8 /* MDCSwipeResult.h */,
+				4F51990D19C7A6C40031F5F8 /* MDCSwipeResult.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		4F51990E19C7A6C40031F5F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F51990F19C7A6C40031F5F8 /* MDCSwipeToChooseDelegate.h */,
+				4F51991019C7A6C40031F5F8 /* MDCSwipeToChooseView.h */,
+				4F51991119C7A6C40031F5F8 /* MDCSwipeToChooseView.m */,
+				4F51991219C7A6C40031F5F8 /* UIView+MDCSwipeToChoose.h */,
+				4F51991319C7A6C40031F5F8 /* UIView+MDCSwipeToChoose.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F51992119C7A80B0031F5F8 /* Survey */ = {
+			isa = PBXGroup;
+			children = (
+				4F51992219C7A8AD0031F5F8 /* Survey.h */,
+				4F51992319C7A8AD0031F5F8 /* Survey.m */,
+				4F51992519C7A8F80031F5F8 /* SurveyChooseView.h */,
+				4F51992619C7A8F80031F5F8 /* SurveyChooseView.m */,
+			);
+			name = Survey;
+			sourceTree = "<group>";
+		};
+		4F543DDE19C78DBD00928BE7 = {
+			isa = PBXGroup;
+			children = (
+				4F543DF019C78DBD00928BE7 /* Survey */,
+				4F543E1219C78DBD00928BE7 /* SurveyTests */,
+				4F543DE919C78DBD00928BE7 /* Frameworks */,
+				4F543DE819C78DBD00928BE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F543DE819C78DBD00928BE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F543DE719C78DBD00928BE7 /* Survey.app */,
+				4F543E0B19C78DBD00928BE7 /* SurveyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F543DE919C78DBD00928BE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F543DEA19C78DBD00928BE7 /* Foundation.framework */,
+				4F543DEC19C78DBD00928BE7 /* CoreGraphics.framework */,
+				4F543DEE19C78DBD00928BE7 /* UIKit.framework */,
+				4F543E0C19C78DBD00928BE7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F543DF019C78DBD00928BE7 /* Survey */ = {
+			isa = PBXGroup;
+			children = (
+				4FFE363519C7FD8C0069D587 /* Model */,
+				4F51992119C7A80B0031F5F8 /* Survey */,
+				4F543DF919C78DBD00928BE7 /* AppDelegate.h */,
+				4F543DFA19C78DBD00928BE7 /* AppDelegate.m */,
+				4F543DFC19C78DBD00928BE7 /* Main.storyboard */,
+				4F51991E19C7A7050031F5F8 /* SurveyViewController.h */,
+				4F51991F19C7A7050031F5F8 /* SurveyViewController.m */,
+				4FFE363219C7C0D60069D587 /* SurveyCollectionViewCell.h */,
+				4FFE363319C7C0D60069D587 /* SurveyCollectionViewCell.m */,
+				4F543DFF19C78DBD00928BE7 /* FirstViewController.h */,
+				4F543E0019C78DBD00928BE7 /* FirstViewController.m */,
+				4F543E0219C78DBD00928BE7 /* SecondViewController.h */,
+				4F543E0319C78DBD00928BE7 /* SecondViewController.m */,
+				4FFE363919C80FCC0069D587 /* FirstExpsViewController.h */,
+				4FFE363A19C80FCC0069D587 /* FirstExpsViewController.m */,
+				4F543E0519C78DBD00928BE7 /* Images.xcassets */,
+				4F5198F319C7A6B50031F5F8 /* External */,
+				4F5198E019C7A02A0031F5F8 /* artwork */,
+				4F543DF119C78DBD00928BE7 /* Supporting Files */,
+			);
+			path = Survey;
+			sourceTree = "<group>";
+		};
+		4F543DF119C78DBD00928BE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F543DF219C78DBD00928BE7 /* Survey-Info.plist */,
+				4F543DF319C78DBD00928BE7 /* InfoPlist.strings */,
+				4F543DF619C78DBD00928BE7 /* main.m */,
+				4F543DF819C78DBD00928BE7 /* Survey-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F543E1219C78DBD00928BE7 /* SurveyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F543E1819C78DBD00928BE7 /* SurveyTests.m */,
+				4F543E1319C78DBD00928BE7 /* Supporting Files */,
+			);
+			path = SurveyTests;
+			sourceTree = "<group>";
+		};
+		4F543E1319C78DBD00928BE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F543E1419C78DBD00928BE7 /* SurveyTests-Info.plist */,
+				4F543E1519C78DBD00928BE7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FFE363519C7FD8C0069D587 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FFE363619C7FD9C0069D587 /* SurveyResult.h */,
+				4FFE363719C7FD9C0069D587 /* SurveyResult.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F543DE619C78DBD00928BE7 /* Survey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F543E1C19C78DBD00928BE7 /* Build configuration list for PBXNativeTarget "Survey" */;
+			buildPhases = (
+				4F543DE319C78DBD00928BE7 /* Sources */,
+				4F543DE419C78DBD00928BE7 /* Frameworks */,
+				4F543DE519C78DBD00928BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Survey;
+			productName = Survey;
+			productReference = 4F543DE719C78DBD00928BE7 /* Survey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F543E0A19C78DBD00928BE7 /* SurveyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F543E1F19C78DBD00928BE7 /* Build configuration list for PBXNativeTarget "SurveyTests" */;
+			buildPhases = (
+				4F543E0719C78DBD00928BE7 /* Sources */,
+				4F543E0819C78DBD00928BE7 /* Frameworks */,
+				4F543E0919C78DBD00928BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F543E1119C78DBD00928BE7 /* PBXTargetDependency */,
+			);
+			name = SurveyTests;
+			productName = SurveyTests;
+			productReference = 4F543E0B19C78DBD00928BE7 /* SurveyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F543DDF19C78DBD00928BE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "FirstExps Inc.";
+				TargetAttributes = {
+					4F543E0A19C78DBD00928BE7 = {
+						TestTargetID = 4F543DE619C78DBD00928BE7;
+					};
+				};
+			};
+			buildConfigurationList = 4F543DE219C78DBD00928BE7 /* Build configuration list for PBXProject "Survey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F543DDE19C78DBD00928BE7;
+			productRefGroup = 4F543DE819C78DBD00928BE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F543DE619C78DBD00928BE7 /* Survey */,
+				4F543E0A19C78DBD00928BE7 /* SurveyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F543DE519C78DBD00928BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F543E0619C78DBD00928BE7 /* Images.xcassets in Resources */,
+				4F5198EE19C7A02A0031F5F8 /* karate.jpg in Resources */,
+				4F5198EC19C7A02A0031F5F8 /* dance.jpg in Resources */,
+				4F543DF519C78DBD00928BE7 /* InfoPlist.strings in Resources */,
+				4F5198F219C7A02A0031F5F8 /* sushi.jpg in Resources */,
+				4F5198F119C7A02A0031F5F8 /* sailing.jpg in Resources */,
+				4F5198EB19C7A02A0031F5F8 /* archery.jpg in Resources */,
+				4F543DFE19C78DBD00928BE7 /* Main.storyboard in Resources */,
+				4F5198EF19C7A02A0031F5F8 /* paintnite.jpg in Resources */,
+				4F5198F019C7A02A0031F5F8 /* rockclimbing.jpg in Resources */,
+				4F5198ED19C7A02A0031F5F8 /* guitar.jpg in Resources */,
+				4F5198EA19C7A02A0031F5F8 /* acting.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F543E0919C78DBD00928BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F543E1719C78DBD00928BE7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F543DE319C78DBD00928BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F543E0419C78DBD00928BE7 /* SecondViewController.m in Sources */,
+				4F51992419C7A8AD0031F5F8 /* Survey.m in Sources */,
+				4F543DFB19C78DBD00928BE7 /* AppDelegate.m in Sources */,
+				4F51992719C7A8F80031F5F8 /* SurveyChooseView.m in Sources */,
+				4FFE363419C7C0D60069D587 /* SurveyCollectionViewCell.m in Sources */,
+				4F543E0119C78DBD00928BE7 /* FirstViewController.m in Sources */,
+				4F51991719C7A6C40031F5F8 /* UIView+MDCBorderedLabel.m in Sources */,
+				4F543DF719C78DBD00928BE7 /* main.m in Sources */,
+				4F51991419C7A6C40031F5F8 /* MDCGeometry.m in Sources */,
+				4F51991D19C7A6C40031F5F8 /* UIView+MDCSwipeToChoose.m in Sources */,
+				4F51991819C7A6C40031F5F8 /* MDCSwipeOptions.m in Sources */,
+				4FFE363819C7FD9C0069D587 /* SurveyResult.m in Sources */,
+				4F51991619C7A6C40031F5F8 /* UIColor+MDCRGB8Bit.m in Sources */,
+				4F51992019C7A7050031F5F8 /* SurveyViewController.m in Sources */,
+				4F51991519C7A6C40031F5F8 /* MDCViewState.m in Sources */,
+				4FFE363B19C80FCC0069D587 /* FirstExpsViewController.m in Sources */,
+				4F51991919C7A6C40031F5F8 /* MDCSwipeToChooseViewOptions.m in Sources */,
+				4F51991C19C7A6C40031F5F8 /* MDCSwipeToChooseView.m in Sources */,
+				4F51991B19C7A6C40031F5F8 /* MDCSwipeResult.m in Sources */,
+				4F51991A19C7A6C40031F5F8 /* MDCPanState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F543E0719C78DBD00928BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F543E1919C78DBD00928BE7 /* SurveyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F543E1119C78DBD00928BE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F543DE619C78DBD00928BE7 /* Survey */;
+			targetProxy = 4F543E1019C78DBD00928BE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F543DF319C78DBD00928BE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F543DF419C78DBD00928BE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F543DFC19C78DBD00928BE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F543DFD19C78DBD00928BE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F543E1519C78DBD00928BE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F543E1619C78DBD00928BE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F543E1A19C78DBD00928BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F543E1B19C78DBD00928BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F543E1D19C78DBD00928BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Survey/Survey-Prefix.pch";
+				INFOPLIST_FILE = "Survey/Survey-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F543E1E19C78DBD00928BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Survey/Survey-Prefix.pch";
+				INFOPLIST_FILE = "Survey/Survey-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4F543E2019C78DBD00928BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Survey.app/Survey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Survey/Survey-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SurveyTests/SurveyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4F543E2119C78DBD00928BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Survey.app/Survey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Survey/Survey-Prefix.pch";
+				INFOPLIST_FILE = "SurveyTests/SurveyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F543DE219C78DBD00928BE7 /* Build configuration list for PBXProject "Survey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F543E1A19C78DBD00928BE7 /* Debug */,
+				4F543E1B19C78DBD00928BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F543E1C19C78DBD00928BE7 /* Build configuration list for PBXNativeTarget "Survey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F543E1D19C78DBD00928BE7 /* Debug */,
+				4F543E1E19C78DBD00928BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F543E1F19C78DBD00928BE7 /* Build configuration list for PBXNativeTarget "SurveyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F543E2019C78DBD00928BE7 /* Debug */,
+				4F543E2119C78DBD00928BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F543DDF19C78DBD00928BE7 /* Project object */;
+}

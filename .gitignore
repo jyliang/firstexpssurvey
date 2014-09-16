@@ -1,0 +1,5 @@
+Survey/Survey.xcodeproj/project.xcworkspace/xcuserdata/*
+*.xcbptlist
+*.orig
+.DS_Store
+Survey/Survey.xcodeproj/xcuserdata/**/xcschemes/*
